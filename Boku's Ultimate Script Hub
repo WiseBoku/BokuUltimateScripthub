@@ -1,0 +1,75 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Boku's Ultimate Script Hub", "Ocean")
+
+-- Project Slayer
+local Tab = Window:NewTab("Project Slayers")
+local Section = Tab:NewSection("Project Slayer Script")
+
+
+Section:NewButton("Sylveon Hub", "#1 Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/projectsl", true))()
+end)
+
+Section:NewButton("Trap Hub", "#2 Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/TrapHub.lua"))()
+end)
+
+Section:NewButton("Shark Hub v2 Cracked", "Cracked Script", function()
+    workspace.FallenPartsDestroyHeight = -50000
+    local placeId = game.PlaceId
+    
+    if placeId == 6152116144 or placeId == 13883279773 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovazUwU/SharkHub/main/Map1"))()
+    elseif placeId == 11468159863 or placeId == 13881804983 or placeId == 13883059853 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovazUwU/SharkHub/main/Map2"))()
+    elseif placeId == 5956785391 then 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovazUwU/SharkHub/main/Menu"))()
+    elseif placeId == 11468034852 then -- MUGEN
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovazUwU/SharkHub/main/Mugen"))()
+    else
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NovazUwU/SharkHub/main/Ouw"))()
+    end
+end)
+
+Section:NewButton("Nort Nation", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/w1nterofficial/northhub/main/northnation', true))()
+end)
+
+Section:NewButton("BlackOutServices", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Update-1.5-Project-Slayers-BlackoutServices-11030"))()
+end)
+
+Section:NewButton("Insta Kill", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Project-Slayers-INSTA-KILL-AURA-ONE-SHOT-MOBS-v209-servers-only-6881"))()
+
+end)
+-- Cool Stuff
+local Tab = Window:NewTab("Fun Stuff")
+local Section = Tab:NewSection("Admin Stuff")
+
+-- Infinite Yield
+Section:NewButton("Infinite Yield", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Section:NewButton("Fe animate r6 r15", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-LX63-FE-animate-R6-R15-1170"))()
+end)
+
+Section:NewButton("The Whole Scriptblox", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-The-Whole-ScriptBlox-in-a-script-9971"))()
+end)
+
+Section:NewButton("The Chosen One FE GUI", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/The-Chosen-One-FE-gui-9258"))()
+end)
+
+-- Blox Fruit
+local Tab = Window:NewTab("Blox Fruits")
+local Section = Tab:NewSection("Awesome Blox Fruit scripts")
+
+Section:NewButton("1f0 hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
+end)
+
+
